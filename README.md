@@ -1,7 +1,7 @@
 # grunt-ng-json2js
 
 >Grunt task for converting JSON files to [AngularJS](http://angularjs.org/) values.
-###
+
 
 ## This is a fork of [karma-ng-json2js-preprocessor] (https://github.com/EE/karma-ng-json2js-preprocessor)
 I figured that we had no need to convert data on every karma test run, rather we make it into a

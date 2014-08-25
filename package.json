@@ -1,7 +1,7 @@
 {
     "name": "grunt-ng-json2js",
     "description": "Converts json to AngularJS modules for test fixtures",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "homepage": "https://github.com/mbcooper/grunt-ng-json2js",
     "author": {
         "name": "mbcooper",
@@ -40,6 +40,8 @@
         "grunt": "~0.4.5"
     },
     "keywords": [
-        "gruntplugin"
+        "gruntplugin",
+        "angularJs",
+        "karma"
     ]
 }
