@@ -1,7 +1,7 @@
 # grunt-ng-json2js
 
 >Grunt task for converting JSON files to [AngularJS](http://angularjs.org/) values.
-#NOTE: Under development - not ready for use
+###
 
 ## This is a fork of [karma-ng-json2js-preprocessor] (https://github.com/EE/karma-ng-json2js-preprocessor)
 I figured that we had no need to convert data on every karma test run, rather we make it into a
@@ -45,21 +45,8 @@ grunt.initConfig({
 });
 ```
 
-## Configuration
-This task converts JSON files into Angular values and puts them in separate Angular modules; each named the same as the source JSON file and generates Angular modules.
-```js
-    ngjson2js:{
-        // strip this from the file path
-         stripPrefix: 'test/fixture/',
 
-         // prepend this to the
-         prependPrefix: 'served/',
-
-    }
-
-```
-
-## Usage
+## Examples
 For instance this `test/fixture/data.json`  ...
 ```json
 {
