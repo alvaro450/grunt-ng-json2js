@@ -19,7 +19,6 @@ module.exports = function (grunt) {
         var missing = properties.filter(function (key) {
             return !options[key];
         });
-
         if (!_.isEmpty(missing)) {
             throw grunt.util.error('Required option property' + pluralize(missing.length, 'y/ies') + ' ' + missing.join(', ') + ' is missing');
         }
@@ -61,7 +60,6 @@ module.exports = function (grunt) {
                     valueName = valueName.replace(/(?:-|\/)([a-zA-Z0-9])/g, function (all, letter) {
                         return letter.toUpperCase();
                     });
-
 
                     var outputPath = jsonPath.replace(/\.json$/, '') + '.js';
                     var output = util.format(TEMPLATE, moduleName, valueName, src);
