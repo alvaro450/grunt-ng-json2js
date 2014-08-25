@@ -1,0 +1,3 @@
+angular.module('test/fixtures/testing.json', []).value('testFixtures123',  {"1": 1,
+                                                                           "2": 2,
+                                                                            "3": 3});
