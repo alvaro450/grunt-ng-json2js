@@ -4,6 +4,7 @@
 
 
 ## This is a fork of [karma-ng-json2js-preprocessor] (https://github.com/EE/karma-ng-json2js-preprocessor)
+## see my gulp version [gulp-ng-json2js] (https://github.com/mbcooper/gulp-ng-json2js.git)
 I figured that we had no need to convert data on every karma test run, rather we make it into a
 grunt task that we run when required.
 
